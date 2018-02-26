@@ -2,7 +2,6 @@
 layout: post
 title: "글또를 시작하면서"
 date: 2017-02-12
-img:  # Add image post (optional)
 ---
 글또에 참여하게 된 계기는 단순하다. 
 

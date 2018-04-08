@@ -23,7 +23,7 @@ print(a)
 
 ![variable_is_label]({{site.baseurl}}/assets/img/var-boxes-x-labels.png)
 
-위와 같이 동작하기 때문에 파이썬에서는 하나의 객체에서 여러 변수들을 할당할 수 있다(aliasing).
+위와 같이 동작하기 때문에 파이썬에서는 하나의 객체에 여러 변수들을 할당할 수 있다(aliasing).
 
 ### `is` 연산자
 여러 변수를 하나의 객체에 할당을 할수 있다고 했다. 그러면 변수들이 같은 객체를 참조하고 있다는 것을 어떻게 확인할 수 있을까?

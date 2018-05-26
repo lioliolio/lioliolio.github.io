@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "awsebcli 사용시 나타나는 UnicodeDecodeError 해결하기"
-date: 2017-02-25
+date: 2018-02-25
 ---
 파이썬 장고로 프로젝트를 시작하면서 AWS Elastic Beanstalk에 배포를 하기 위해서 [공식 문서](https://docs.aws.amazon.com/ko_kr/elasticbeanstalk/latest/dg/create-deploy-python-django.html)에 따라 설정을 하고 있었다. region 설정, 파이썬 버전 설정 등 잘 진행하고 있었는데 AWS CodeCommit 을 사용할 것인지 묻는 과정에서 `UnicodeDecodeError` 가 나타났다.
 

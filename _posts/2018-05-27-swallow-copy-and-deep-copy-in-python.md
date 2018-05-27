@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "얕은 복사(swallow copy)와 깊은 복사(deep cody)"
+title: "얕은 복사(swallow copy)와 깊은 복사(deep copy)"
 date: 2018-05-27
 ---
 전에 쓴 글인 [파이썬 변수에 대해서](https://lioliolio.github.io/about-variable-in-python/)의 예제를 보자.

@@ -8,11 +8,11 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: TaeWoo Kim # add your name
 author-img: my-pic.jpg # add your photo
-about-author: Software Developer # add description
+about-author: Programmer # add description
 twitter: # add your Twitter handle
 facebook: taewoo.kim.9400 # add your Facebook handle
 github: lioliolio # add your Github handle
-linkedin: # add your Linkedin handle
+linkedin: taewoo-kim-b61538133 # add your Linkedin handle
 email: kpc00100@gmail.com # add your Email address
 
 # Disqus

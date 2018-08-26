@@ -49,5 +49,7 @@ TypeError: unhashable type: 'list'
 **"가변 객체인 리스트는 해시 가능하지 않기 때문에 딕셔너리 키로 사용할 수 없고, 튜플은 불변 객체의 참조만 담고 있는 경우에 딕셔너리 키로 사용가능합니다."**
 ### 참고
 - 전문가를 위한 파이썬
-- [8.6. bisect — Array bisection algorithm](https://docs.python.org/3.7/library/bisect.html)
-- [SortedCollection (Python recipe) ](https://code.activestate.com/recipes/577197-sortedcollection/)
+- [4.10. Mapping Types — dict](https://docs.python.org/3/library/stdtypes.html#mapping-types-dict)
+- [Python Glossary](https://docs.python.org/3/glossary.html)
+- [Hash Function](https://en.wikipedia.org/wiki/Hash_function)
+- [python hash 함수](https://docs.python.org/3/library/functions.html#hash)

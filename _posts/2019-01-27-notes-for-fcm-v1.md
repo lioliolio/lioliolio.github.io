@@ -23,11 +23,11 @@ FCM HTTP v1 API는 FCM legacy HTTP API에 비해 다음과 같은 장점이 있�
 
 기존 앱에서 기기 그룹 메시징, 멀티캐스트 메시징 기능은 사용하고 있지 않았기 때문에 FCM HTTP v1 API로 변경해도 큰 문제는 없을거라 생각했습니다. 모든 일이 그렇지만 예상대로만 흘러 가진 않았습니다...ㅠㅠ
 
-##### FCM legacy HTTP API와 다르게 FCM HTTP v1 API 는 콘솔에서 API를 enable 해야합니다.
+#### FCM legacy HTTP API와 다르게 FCM HTTP v1 API 는 콘솔에서 API를 enable 해야합니다.
 
 [API Dashboard - Google Cloud Console](https://console.cloud.google.com/apis/dashboard)에서 enable 해야 합니다.
 
-##### FCM legacy HTTP API의 경우 토큰이 리프레시 되면 리프레시 된 토큰 값을 알 수 있지만, FCM HTTP v1 API는 리프레시 된 토큰 값을 알 수 없습니다.
+#### FCM legacy HTTP API의 경우 토큰이 리프레시 되면 리프레시 된 토큰 값을 알 수 있지만, FCM HTTP v1 API는 리프레시 된 토큰 값을 알 수 없습니다.
 
 ```
 # FCM legacy HTTP API Response example
@@ -49,7 +49,7 @@ FCM HTTP v1 API는 FCM legacy HTTP API에 비해 다음과 같은 장점이 있�
 
 따라서, 변경된 토큰 값에 대한 문제는 FCM HTTP v1 API 만으로는 처리할 수 없습니다. 기존 FCM legacy HTTP API를 사용하던지, 다른 방법을 찾아야 합니다.
 
-##### FCM HTTP API v1 문서 내용이 너무 빈약하여 정확한 응답 메시지 형식을 알기 힘들었습니다.
+#### FCM HTTP API v1 문서 내용이 너무 빈약하여 정확한 응답 메시지 형식을 알기 힘들었습니다.
 
 문서만 봐서는 어떤 형식으로 응답 메시지를 주는지 알기가 쉽지 않았습니다. 직접 요청 메시지를 보내서 응답 메시지를 확인하거나, 다른 구글 라이브러리 코드를 확인하는 방식으로 응답 메시지를 확인했습니다.
 
@@ -63,7 +63,7 @@ FCM HTTP v1 API는 FCM legacy HTTP API에 비해 다음과 같은 장점이 있�
     }
 }
 ```
-
+--
 ```
 # details가 있는 error 응답 메시지
 {

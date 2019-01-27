@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FCM HTTP v1 주의점"
+title: "FCM HTTP v1 으로 변경하면서 겪었던 문제들"
 date: 2019-01-27
 ---
 [FCM(Firebase Cloud Messaging)](https://firebase.google.com/docs/cloud-messaging/)를 사용하면 안드로이드, ios 앱 및 모바일 웹에 푸쉬 메시지를 전송할 수 있습니다. 

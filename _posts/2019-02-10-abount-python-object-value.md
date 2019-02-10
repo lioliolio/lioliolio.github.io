@@ -3,15 +3,14 @@ layout: post
 title: "파이썬 객체의 값(value)"
 date: 2019-02-10
 ---
-[파이썬 변수에 대하여](https://lioliolio.github.io/about-variable-in-python/) 라는 글에서 `is` 연산자에 대해 언급을 했습니다. 하지만 비교 연산자인 `==`에 대해서는 언급을 하지 않았습니다. 그 이유는 비교 연산자에 대해 공부를 하던 중 단순히 **값을 비교한다** 라고 설명하기에는 더 많은 내용이 있었기 때문입니다. 이번에는 파이썬에서 **객체의 값**에 대해 정리를 해보고자 합니다.
-
 ### 값(Value)이란 무엇인가?
+모든 파이썬 객체는 **identity**, **type**, **value**를 가지고 있습니다.
 
-[6.10.1. Value comparison](https://docs.python.org/3/reference/expressions.html?highlight=comparison#value-comparisons) 문서에서 **값(Value)**에 대해 다음과 같이 설명하고 있습니다.
+[6.10.1. Value comparison](https://docs.python.org/3/reference/expressions.html?highlight=comparison#value-comparisons) 문서에서 **값(Value)**을 다음과 같이 설명하고 있습니다.
 
 **The value of an object is a rather abstract notion in Python: For example, there is no canonical access method for an object’s value. Also, there is no requirement that the value of an object should be constructed in a particular way, e.g. comprised of all its data attributes. Comparison operators implement a particular notion of what the value of an object is. One can think of them as defining the value of an object indirectly, by means of their comparison implementation.**
 
-파이썬에서 객체의 **값**이란 개념은 추상적인 개념이며, 비교 연산자를 통해서 간접적으로 객체의 **값**이 무엇인지 정의하는 것으로 생각할 수 있다고 설명하고 있습니다.
+요약하면 파이썬에서 객체의 **값**이란 개념은 추상적인 개념이며, 비교 연산자를 통해서 간접적으로 객체의 **값**이 무엇인지 정의할 수 있다는 것입니다.
 
 밑에 예제 코드가 있습니다.
 
@@ -67,4 +66,5 @@ True
 
 
 ### 참고
-[6.10.1. Value comparison](https://docs.python.org/3/reference/expressions.html?highlight=comparison#value-comparisons)
+- [python data model](https://docs.python.org/3/reference/datamodel.html?highlight=data%20model)
+- [6.10.1. Value comparison](https://docs.python.org/3/reference/expressions.html?highlight=comparison#value-comparisons)

@@ -63,7 +63,7 @@ class Entry(models.Model):
 
 **fitler**를 두 번, **exclude** 한 번 실행했으니까 총 세 번일까요? 그렇지 않습니다.
 
-실제 데이터베이스 조회를 하는 건 `print(q)`를 할 때 단 한 번 다음 쿼리문을 실행합니다.
+`print(q)`를 할 때 단 한 번 다음 쿼리문을 실행합니다.
 
 ```
 # raw query

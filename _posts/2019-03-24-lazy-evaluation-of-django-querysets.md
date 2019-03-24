@@ -4,7 +4,7 @@ title: "Django QuerySet의 지연된 실행"
 date: 2019-03-24
 ---
 
-Django ORM을 더 효율적으로 사용하기 위해 **[쿼리셋(QuerySet)](https://docs.djangoproject.com/en/2.1/ref/models/querysets/#django.db.models.query.QuerySet))**을 만드는 경우 언제 쿼리문을 실행하는지에 대해 정리했습니다.
+Django ORM을 더 효율적으로 사용하기 위해 **[쿼리셋(QuerySet)](https://docs.djangoproject.com/en/2.1/ref/models/querysets/#django.db.models.query.QuerySet)**을 만드는 경우 언제 쿼리문을 실행하는지에 대해 정리했습니다.
 
 ### 쿼리셋(QuerySet)의 지연된 실행(lazy evaluation)
 
